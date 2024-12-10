@@ -24,6 +24,7 @@ Locate the following line and replace /your/project/path with the absolute path 
 
 javascript
 Copy code
+
       ```bash
       const projectPath = path.resolve('/your/project/path'); // Replace with your project path
 
@@ -31,16 +32,20 @@ Save the changes.
 
 Run the script by executing the following command in the terminal:
 Copy code
+
     ```bash
     node finding-dep.js
+    
 Example Output
 After running the script, you’ll see a list of external dependencies used in your project. Example:
 
 Copy code
+
     ```bash
     node finding-dep.js
     
 Response
+
     ```bash
     Dependencies found: [ 'react', 'express', 'lodash', 'moment' ]
 
