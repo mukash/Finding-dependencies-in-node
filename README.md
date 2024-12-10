@@ -36,7 +36,3 @@ Before you begin, make sure you have the following installed on your machine:
 
    ```bash
    Dependencies found: [ 'react', 'express', 'lodash', 'moment' ]
-
-
-
-
