@@ -17,42 +17,26 @@ Before you begin, make sure you have the following installed on your machine:
 
    ```bash
    npm install
+   
 ## Usage
-Open the script file finding-dep.js in your code editor.
 
-Locate the following line and replace /your/project/path with the absolute path to the project you want to scan:
+1. Open the script file `finding-dep.js` in your code editor.
+2. Locate the following line and replace `/your/project/path` with the absolute path to the project you want to scan:
 
-javascript
-Copy code
+   ```javascript
+   const projectPath = path.resolve('/your/project/path'); // Replace with your project path
 
-      ```bash
-      const projectPath = path.resolve('/your/project/path'); // Replace with your project path
+3. Save the changes.
+4. Run the script by executing the following command in the terminal:
 
-Save the changes.
+   ```bash
+   node finding-dep.js
 
-Run the script by executing the following command in the terminal:
-Copy code
+##Example Output
 
-    ```bash
-    node finding-dep.js
-    
-Example Output
-After running the script, you’ll see a list of external dependencies used in your project. Example:
-
-Copy code
-
-    ```bash
-    node finding-dep.js
-    
-Response
-
-    ```bash
-    Dependencies found: [ 'react', 'express', 'lodash', 'moment' ]
+   ```bash
+   Dependencies found: [ 'react', 'express', 'lodash', 'moment' ]
 
 
-### Key Changes:
-1. Proper formatting for code blocks (e.g., `bash` and `javascript`).
-2. Fixed incomplete sections, like `Example Output`.
-3. Ensured readability by aligning indentation and removing redundant `Copy code` lines.
 
-This version is ready for your `README.md`!
+
